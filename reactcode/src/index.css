@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: green;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.imagelogo{
+  height: 150px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.imagr{
+  height: 600px;
+  border-radius: 4px;
+}
+
+h1{
+  font-size: 15px;
+  font-style: italic;
+}
+.boxshadow{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.bsw{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+select{
+  margin-top: 2px;
+  border: 3px solid black;
+  width: 150px;
+}
+
+table, th, td {
+
+  border: 1px solid black;
+
+}
+
+tr:nth-child(even) {
+
+  background-color: #D6EEEE;
+
+}

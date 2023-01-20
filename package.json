@@ -1,0 +1,38 @@
+{
+  "name": "sad_project",
+  "version": "1.0.0",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js",
+    "app": "nodemon backend.js",
+    "test": "mocha reservationtest.js userstest.js --timeout 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infomediadesign/sad-02-2022-project-team-green"
+  },
+  "author": "sad-02-2022-project-team-green",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/infomediadesign/sad-02-2022-project-team-green/issues"
+  },
+  "homepage": "https://github.com/infomediadesign/sad-02-2022-project-team-green#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "router": "^1.3.7",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16"
+  },
+  "description": ""
+}
